@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A49E10911D5EE50200C4CA71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49E10901D5EE50200C4CA71 /* AppDelegate.swift */; };
+		A49E10931D5EE50200C4CA71 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49E10921D5EE50200C4CA71 /* FirstViewController.swift */; };
+		A49E10951D5EE50200C4CA71 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49E10941D5EE50200C4CA71 /* SecondViewController.swift */; };
+		A49E10981D5EE50200C4CA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49E10961D5EE50200C4CA71 /* Main.storyboard */; };
+		A49E109A1D5EE50200C4CA71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49E10991D5EE50200C4CA71 /* Assets.xcassets */; };
+		A49E109D1D5EE50200C4CA71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49E109B1D5EE50200C4CA71 /* LaunchScreen.storyboard */; };
+		A49E10A51D5EE92D00C4CA71 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A49E10A41D5EE92D00C4CA71 /* GoogleService-Info.plist */; };
+		A49E10A71D5EF58000C4CA71 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49E10A61D5EF58000C4CA71 /* RegisterViewController.swift */; };
+		BE33717BCBC5D6C44D2DDAB4 /* Pods_Panthera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0693216607C07E843FB2D05 /* Pods_Panthera.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		104FC87C21B7D359728B8EC9 /* Pods-Panthera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Panthera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Panthera/Pods-Panthera.debug.xcconfig"; sourceTree = "<group>"; };
+		667D05F548A7D5413960C8E5 /* Pods-Panthera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Panthera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Panthera/Pods-Panthera.release.xcconfig"; sourceTree = "<group>"; };
+		A49E108D1D5EE50100C4CA71 /* Panthera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panthera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49E10901D5EE50200C4CA71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A49E10921D5EE50200C4CA71 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A49E10941D5EE50200C4CA71 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A49E10971D5EE50200C4CA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A49E10991D5EE50200C4CA71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A49E109C1D5EE50200C4CA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A49E109E1D5EE50200C4CA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49E10A41D5EE92D00C4CA71 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A49E10A61D5EF58000C4CA71 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D0693216607C07E843FB2D05 /* Pods_Panthera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Panthera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A49E108A1D5EE50100C4CA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE33717BCBC5D6C44D2DDAB4 /* Pods_Panthera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2799C09E1CCBB554B37144 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				104FC87C21B7D359728B8EC9 /* Pods-Panthera.debug.xcconfig */,
+				667D05F548A7D5413960C8E5 /* Pods-Panthera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A49E10841D5EE50100C4CA71 = {
+			isa = PBXGroup;
+			children = (
+				A49E108F1D5EE50200C4CA71 /* Panthera */,
+				A49E108E1D5EE50100C4CA71 /* Products */,
+				2D2799C09E1CCBB554B37144 /* Pods */,
+				FC0EAD6BDAB0C0C5A7957AA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A49E108E1D5EE50100C4CA71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A49E108D1D5EE50100C4CA71 /* Panthera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A49E108F1D5EE50200C4CA71 /* Panthera */ = {
+			isa = PBXGroup;
+			children = (
+				A49E10901D5EE50200C4CA71 /* AppDelegate.swift */,
+				A49E10921D5EE50200C4CA71 /* FirstViewController.swift */,
+				A49E10A61D5EF58000C4CA71 /* RegisterViewController.swift */,
+				A49E10941D5EE50200C4CA71 /* SecondViewController.swift */,
+				A49E10961D5EE50200C4CA71 /* Main.storyboard */,
+				A49E10991D5EE50200C4CA71 /* Assets.xcassets */,
+				A49E109B1D5EE50200C4CA71 /* LaunchScreen.storyboard */,
+				A49E109E1D5EE50200C4CA71 /* Info.plist */,
+				A49E10A41D5EE92D00C4CA71 /* GoogleService-Info.plist */,
+			);
+			path = Panthera;
+			sourceTree = "<group>";
+		};
+		FC0EAD6BDAB0C0C5A7957AA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0693216607C07E843FB2D05 /* Pods_Panthera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A49E108C1D5EE50100C4CA71 /* Panthera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A49E10A11D5EE50200C4CA71 /* Build configuration list for PBXNativeTarget "Panthera" */;
+			buildPhases = (
+				B3C621882672CA1F8AFB0A84 /* [CP] Check Pods Manifest.lock */,
+				A49E10891D5EE50100C4CA71 /* Sources */,
+				A49E108A1D5EE50100C4CA71 /* Frameworks */,
+				A49E108B1D5EE50100C4CA71 /* Resources */,
+				AA28D836992A7E4A96536EA2 /* [CP] Embed Pods Frameworks */,
+				48FA6AB2B5827ED4092E8867 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Panthera;
+			productName = Panthera;
+			productReference = A49E108D1D5EE50100C4CA71 /* Panthera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A49E10851D5EE50100C4CA71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "trvl, LLC";
+				TargetAttributes = {
+					A49E108C1D5EE50100C4CA71 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7QLQZLZHA6;
+					};
+				};
+			};
+			buildConfigurationList = A49E10881D5EE50100C4CA71 /* Build configuration list for PBXProject "Panthera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A49E10841D5EE50100C4CA71;
+			productRefGroup = A49E108E1D5EE50100C4CA71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A49E108C1D5EE50100C4CA71 /* Panthera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A49E108B1D5EE50100C4CA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49E109D1D5EE50200C4CA71 /* LaunchScreen.storyboard in Resources */,
+				A49E109A1D5EE50200C4CA71 /* Assets.xcassets in Resources */,
+				A49E10981D5EE50200C4CA71 /* Main.storyboard in Resources */,
+				A49E10A51D5EE92D00C4CA71 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48FA6AB2B5827ED4092E8867 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Panthera/Pods-Panthera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA28D836992A7E4A96536EA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Panthera/Pods-Panthera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C621882672CA1F8AFB0A84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A49E10891D5EE50100C4CA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49E10951D5EE50200C4CA71 /* SecondViewController.swift in Sources */,
+				A49E10911D5EE50200C4CA71 /* AppDelegate.swift in Sources */,
+				A49E10931D5EE50200C4CA71 /* FirstViewController.swift in Sources */,
+				A49E10A71D5EF58000C4CA71 /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A49E10961D5EE50200C4CA71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A49E10971D5EE50200C4CA71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A49E109B1D5EE50200C4CA71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A49E109C1D5EE50200C4CA71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A49E109F1D5EE50200C4CA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A49E10A01D5EE50200C4CA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A49E10A21D5EE50200C4CA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104FC87C21B7D359728B8EC9 /* Pods-Panthera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Panthera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsanchezrides.Panthera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A49E10A31D5EE50200C4CA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667D05F548A7D5413960C8E5 /* Pods-Panthera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Panthera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsanchezrides.Panthera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A49E10881D5EE50100C4CA71 /* Build configuration list for PBXProject "Panthera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49E109F1D5EE50200C4CA71 /* Debug */,
+				A49E10A01D5EE50200C4CA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A49E10A11D5EE50200C4CA71 /* Build configuration list for PBXNativeTarget "Panthera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49E10A21D5EE50200C4CA71 /* Debug */,
+				A49E10A31D5EE50200C4CA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A49E10851D5EE50100C4CA71 /* Project object */;
+}
